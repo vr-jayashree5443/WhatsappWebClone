@@ -1,0 +1,281 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <style>
+    #labelcontainer1{
+      content : '';
+      position: absolute;
+      top: 0;
+      right: -12px;
+      width: 20px;
+      height: 20px;
+      background: linear-gradient(135deg, #dcf8c6 0%, #dcf8c6 50%, transparent 50%, transparent);
+      color: yellow;
+    }
+    label{
+    content : '';
+    position: absolute;
+    top: 0;
+    right: -12px;
+    width: 20px;
+    height: 20px;
+    background: linear-gradient(225deg, #fff 0%, #fff 50%, transparent 50%, transparent);
+  }
+  .labelContainer2 label {
+    display: block;
+    margin-top: 5px;
+    font-size: 0.8em;
+    opacity: 0.5;
+  }
+  
+
+    label{
+      content : '';
+      position: absolute;
+      top: 0;
+      right: -12px;
+      width: 20px;
+      height: 20px;
+      background: linear-gradient(135deg, #dcf8c6 0%, #dcf8c6 50%, transparent 50%, transparent);
+    }
+    
+  </style>
+  <script src="Scripts.js"></script>
+  <meta charset="UTF-8">
+  <meta http-equiv="X-UA-Compatible" content="IE=edge">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <script src="https://kit.fontawesome.com/391827d54c.js" crossorigin="anonymous"></script>
+  <link rel="stylesheet" href="styles.css">
+  <title>Whatsapp Clone</title>
+</head>
+<body>
+  <div class="background-green"></div>
+
+
+  <div class="main-container">
+    <div class="left-container">
+
+<!--header -->
+      <div class="header">
+        <div class="user-img">
+          <img class="dp" src="https://media.istockphoto.com/id/1187609554/photo/portrait-of-handsome-young-asian-man-isolated-on-white-background-concept-of-mens-health-and.webp?b=1&s=612x612&w=0&k=20&c=K8vhgwzJfQx0fEbKk7ora5YRupnBPRTJKoiL0Cp6yIs=" alt="">
+        </div>
+        <div class="nav-icons">
+          <li><i class="fa-solid fa-users"></i></li>
+          <li><i class="fa-solid fa-message">
+ </i></li>
+          <li><i class="fa-solid fa-ellipsis-vertical"></i></li>
+        </div>
+      </div>
+
+
+<!--notification -->
+      <div class="notif-box">
+        <i class="fa-solid fa-bell-slash"></i>
+        <div class="notif-text">
+             <p>Get Notified of New Messages</p>
+             <a href="#">Turn on Desktop Notifications ›</a>
+            </div>
+        <i class="fa-solid fa-xmark"></i>
+      </div>
+
+<!--search-container -->
+      <div class="search-container">
+        <div class="input">
+<i class="fa-solid fa-magnifying-glass"></i>
+          <input type="text" placeholder="Search or start new chat   "></div>
+     <i class="fa-sharp fa-solid fa-bars-filter"></i>
+      </div>
+
+
+<!--chats -->
+      <div class="chat-list">
+        <div class="chat-box">
+          <div class="img-box">
+            <img class="img-cover" src="https://cdn.pixabay.com/photo/2015/01/08/18/29/entrepreneur-593358_1280.jpg" alt="Barry">
+          </div>
+          <div class="chat-details">
+            <div class="text-head">
+              <h4>Barry Allen</h4>
+              <p class="time unread">11:49</p>
+            </div>
+            <div class="text-message">
+              <p>“Good Morning”</p>
+              <b>1</b>
+            </div>
+          </div>
+        </div>
+        <div class="chat-box">
+          <div class="img-box">
+            <img class="img-cover" src="https://cdn.pixabay.com/photo/2017/08/06/12/52/woman-2592247_640.jpg" alt="Catlin">
+          </div>
+          <div class="chat-details">
+            <div class="text-head">
+              <h4>Catlin Snow</h4>
+              <p class="time unread">10:49</p>
+            </div>
+            <div class="text-message">
+              <p>“Work done”</p>
+              <b>4</b>
+            </div>
+          </div>
+        </div>
+        <div class="chat-box">
+          <div class="img-box">
+            <img class="img-cover" src="https://media.istockphoto.com/id/1415123613/photo/young-professional-leader-asian-woman-manager-wearing-suit-outdoor-portrait.webp?b=1&s=612x612&w=0&k=20&c=Y3ArYy0qm_uZIOlV__csxM02vaPu4cw89sIG36-ahtk=" alt="">
+          </div>
+          <div class="chat-details">
+            <div class="text-head">
+              <h4>Iris West</h4>
+              <p class="time unread">09:49</p>
+            </div>
+            <div class="text-message">
+              <p>“20 Sept 2023 is the deadline.”</p>
+              <b>2</b>
+            </div>
+          </div>
+        </div>
+        <div class="chat-box">
+          <div class="img-box">
+            <img class="img-cover" src="https://cdn.pixabay.com/photo/2017/06/20/22/14/man-2425121_1280.jpg" alt="">
+          </div>
+          <div class="chat-details">
+            <div class="text-head">
+              <h4>Cisco Ramon</h4>
+              <p class="time">08:49</p>
+            </div>
+            <div class="text-message">
+              <p>“got LLR”</p>
+            </div>
+          </div>
+        </div>
+        <div class="chat-box active">
+          <div class="img-box">
+            <img class="img-cover" src="https://cdn.pixabay.com/photo/2012/11/28/01/29/man-67467_640.jpg" alt="">
+          </div>
+          <div class="chat-details">
+            <div class="text-head">
+              <h4>Ronnie</h4>
+              <p class="time">07:49</p>
+            </div>
+            <div class="text-message">
+              <p>"Reach on time."</p>
+            </div>
+          </div>
+        </div>
+        <div class="chat-box">
+          <div class="img-box">
+            <img class="img-cover" src="https://media.istockphoto.com/id/1415123632/photo/young-smiling-asian-woman-student-watching-online-webinar-training-on-laptop.webp?b=1&s=612x612&w=0&k=20&c=mflCHLWL7V74JT5mIYiglImT5saPz3BGRDTKyTnQVDI=" alt="">
+          </div>
+          <div class="chat-details">
+            <div class="text-head">
+              <h4>Cecile Horton</h4>
+              <p class="time">06:49</p>
+            </div>
+            <div class="text-message">
+              <p>“Bye.”</p>
+            </div>
+          </div>
+        </div>
+        <div class="chat-box">
+          <div class="img-box">
+            <img class="img-cover" src="https://m.media-amazon.com/images/M/MV5BZTkyZjNmNGEtNjgzMC00NDAyLTkwYzEtMzdiYTcwOWM1MDBlXkEyXkFqcGdeQXVyNzkyMDA5MTc@._V1_SY100_CR25,0,100,100_AL_.jpg" alt="">
+          </div>
+          <div class="chat-details">
+            <div class="text-head">
+              <h4>Chester P. Runk</h4>
+              <p class="time unread">Yesterday</p>
+            </div>
+            <div class="text-message">
+              <p>“TRying React?...”</p>
+              <b>2</b>
+            </div>
+          </div>
+        </div>
+        <div class="chat-box">
+          <div class="img-box">
+            <img class="img-cover" src="https://cdn.pixabay.com/photo/2016/06/28/19/25/man-1485335_640.jpg" alt="">
+          </div>
+          <div class="chat-details">
+            <div class="text-head">
+              <h4>Eddie Thawne</h4>
+              <p class="time">Yesterday</p>
+            </div>
+            <div class="text-message">
+              <p>“Nope”</p>
+            </div>
+          </div>
+        </div>
+      </div>
+
+    </div>
+
+
+
+
+
+    <div class="right-container">
+<!--header -->
+      <div class="header">
+        <div class="img-text">
+          <div class="user-img">
+          <img class="dp" src="https://cdn.pixabay.com/photo/2012/11/28/01/29/man-67467_640.jpg" alt="">
+        </div>
+          <h4>Ronnie<br><span>Online</span></h4>
+        </div>
+        <div class="nav-icons">
+          <li><i class="fa-solid fa-magnifying-glass"></i></li>
+          <li><i class="fa-solid fa-ellipsis-vertical"></i></li>
+        </div>
+      </div>
+
+      <div class="chat-container">
+        <div class="message-box friend-message">
+          <p>Hey, Have you completed the assignment<br><span>07:45</span></p>
+        </div>
+        <div class="message-box friend-message">
+          <p>yep, almost in the end<br><span>07:45</span></p>
+        </div>
+        <div class="message-box friend-message">
+          <p>really!!, how did you enable the sending option<br><span>07:45</span></p>
+        </div>
+        <div class="message-box my-message">
+          <p>😐 <br><span>07:46</span></p>
+        </div>
+        <div class="message-box my-message">
+          <p>the icon one....! 😊<br><span>07:46</span></p>
+        </div>
+      <div class="message-box friend-message">
+          <p>OH..., that one...its simple there are a set of icons to add in the website<br><span>07:48</span></p>
+        </div>
+        <div class="message-box my-message">
+          <p>Great<br><span>07:48</span></p>
+        </div>
+        <div class="message-box my-message">
+          <p>Try it right away<br><span>07:48</span></p>
+        </div>
+      <div class="message-box friend-message">
+          <p>Defenitely, Okay Bye<br><span>07:49</span></p>
+        </div>
+        <div class="message-box friend-message">
+          <p>Reach on time.<br><span>07:49</span></p>
+        </div>
+
+
+      <div class="message-box my-message chat-container labelContainer2" id="labelContainer1"></div>
+      </div>
+
+
+      <div class="chatbox-input">
+        <i class="fa-regular fa-face-grin"></i>
+        <i class="fa-sharp fa-solid fa-paperclip"></i>
+        <input type="text" id="textInput" placeholder="Type a message">
+        <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
+        <i class='fa fa-send' type="submit" class="submit-button" onclick="addLabel(); " ></i> &nbsp; &nbsp; &nbsp;
+        <i class="fa-solid fa-microphone"></i>
+      </div>
+    </div>
+
+  </div>
+</body>
+</html>
